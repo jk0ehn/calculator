@@ -1,0 +1,9 @@
+@font-face {
+  font-family: ds-digi;
+  src: url(/src/fonts/ds_digital/DS-DIGI.TTF);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(/src/fonts/Inter/static/Inter-Medium.ttf);
+}

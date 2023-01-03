@@ -1,3 +1,5 @@
+@import url(/src/css/fonts.css);
+
 * {
   box-sizing: border-box;
 }
@@ -39,4 +41,14 @@ body {
   top: 25px;
   left: 25px;
   width: 27px;
+}
+
+.productline {
+  position: relative;
+  top: 27px;
+  right: 25px;
+  font-size: 10px;
+  color: #676364;
+  text-align: right;
+  font-family: Inter;
 }
