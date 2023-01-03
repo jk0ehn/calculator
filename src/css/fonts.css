@@ -7,3 +7,8 @@
   font-family: Inter;
   src: url(/src/fonts/Inter/static/Inter-Medium.ttf);
 }
+
+@font-face {
+  font-family: Orbitron;
+  src: url(/src/fonts/Orbitron/static/Orbitron-Bold.ttf);
+}
