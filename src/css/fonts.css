@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: inter-light;
+  src: url(/src/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
   font-family: Orbitron;
-  src: url(/src/fonts/Orbitron/static/Orbitron-Bold.ttf);
+  src: url(/src/fonts/Orbitron/static/Orbitron-Regular.ttf);
 }
