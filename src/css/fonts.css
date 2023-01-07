@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: Inter-light;
+  src: url(/src/fonts/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
   font-family: inter-light;
   src: url(/src/fonts/Inter/static/Inter-Regular.ttf);
 }
