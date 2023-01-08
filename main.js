@@ -8,4 +8,5 @@ console.log(numbers);
 
 button.addEventListener('click', () => {
   recess.classList.toggle('active');
+  numbers.classList.toggle('active');
 });
