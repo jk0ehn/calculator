@@ -1,20 +1,10 @@
 'use strict';
 
-// const button = document.getElementById('switch');
-// const recess = document.getElementById('recess');
-
-// console.log(button);
-// console.log(recess);
-
-// button.addEventListener('click', () => {
-//   recess.classList.toggle('active');
-// });
-
 const button = document.querySelector('.switch');
 const recess = document.querySelector('.recess');
+const numbers = document.querySelector('.displayed-numbers');
 
-console.log(button);
-console.log(recess);
+console.log(numbers);
 
 button.addEventListener('click', () => {
   recess.classList.toggle('active');

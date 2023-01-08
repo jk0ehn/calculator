@@ -113,7 +113,7 @@ body {
 
 .display-output {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background-color: #042f20;
   height: 30px;
@@ -123,6 +123,7 @@ body {
 .displayed-numbers {
   position: absolute;
   color: #76fcdf;
+  z-index: 10;
 }
 
 .keys {
@@ -190,6 +191,7 @@ button {
 
 .active {
   justify-content: end;
+  transition: justify-content ease-in 5s;
 }
 
 .slider {
