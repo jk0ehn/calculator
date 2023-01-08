@@ -124,6 +124,11 @@ body {
   position: absolute;
   color: #76fcdf;
   z-index: 10;
+  visibility: hidden;
+}
+
+.displayed-numbers.active {
+  visibility: visible;
 }
 
 .keys {
@@ -189,7 +194,7 @@ button {
   border-bottom: 0.2px solid #949494;
 }
 
-.active {
+.recess.active {
   justify-content: end;
   transition: justify-content ease-in 5s;
 }
