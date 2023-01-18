@@ -5,7 +5,6 @@
 }
 
 body {
-  box-sizing: border-box;
   background-color: #ded29e;
   display: flex;
   align-items: center;
@@ -120,10 +119,13 @@ body {
   width: 160px;
 }
 
+.display-numbers-background {
+  position: relative;
+}
+
 .displayed-numbers {
   position: absolute;
   color: #76fcdf;
-  z-index: 10;
   visibility: hidden;
 }
 
