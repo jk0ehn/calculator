@@ -5,12 +5,24 @@
 }
 
 body {
-  background-color: #ded29e;
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background: #f5f5f5;
+}
+
+.calculator {
+  margin: 20px 20px 0 20px;
+  padding: 20px;
+  background-color: #ded29e;
+  border-radius: 10px;
+  border: 2px solid #d0c8a2;
+  height: 590px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-left: 1.5px solid #f4efd4;
+  border-top: 1.5px solid #f4efd4;
+  border-bottom: 1.5px solid rgb(190, 190, 190);
 }
 
 .calculator-frame {
